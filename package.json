@@ -4,7 +4,8 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "server": "NODE_ENV=dev nodemon server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/alexcphillips/magic8ball#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongodb": "^4.2.1"
   }
